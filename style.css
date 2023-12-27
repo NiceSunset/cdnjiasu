@@ -8,7 +8,7 @@
 html {min-height:100vh;height:100%;scrollbar-color:#2d3748 rgba(203,213,224,0.4);scrollbar-width:thin;min-height:-webkit-fill-available;}
 @font-face {font-family:Emoji;src:local("Apple Color Emojiji"),local("Segoe UI Emoji"),local("Segoe UI Symbol"),local("Noto Color Emoji");unicode-range:U+1F000-1F644,U+203C-3299;}
 body {min-height:100%;margin:0;padding:0;position:relative;overflow-x:hidden;min-height:-webkit-fill-available;font-family:system-ui,—apple-system,Segoe UI,Rototo,Emoji,Helvetica,Arial,sans-serif;}
-video {width:100%;max-height:90vh;background-color:#2f2f2f;}
+video {width:100%;max-height:auto;background-color:#2f2f2f;}
 /*尝试一种很奇妙的设备判断法*/html {content:"0";}
 @media (min-width:640px) {video {max-height:75vh;}
 html {content:"1";}
